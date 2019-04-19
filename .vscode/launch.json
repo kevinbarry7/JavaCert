@@ -1,0 +1,82 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Salmon",
+            "request": "launch",
+            "mainClass": "Salmon"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Price",
+            "request": "launch",
+            "mainClass": "Price"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Egg1",
+            "request": "launch",
+            "mainClass": "Egg1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Egg",
+            "request": "launch",
+            "mainClass": "Egg"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Initialize",
+            "request": "launch",
+            "mainClass": "Initialize"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - One",
+            "request": "launch",
+            "mainClass": "edu.One"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - One",
+            "request": "launch",
+            "mainClass": "One"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - test1",
+            "request": "launch",
+            "mainClass": "com.kevin.test1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ClassB",
+            "request": "launch",
+            "mainClass": "ClassB"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ImportExample",
+            "request": "launch",
+            "mainClass": "ImportExample"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Zoo1",
+            "request": "launch",
+            "mainClass": "Zoo1"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Person",
+            "request": "launch",
+            "mainClass": "Person"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - example",
+            "request": "launch",
+            "mainClass": "example"
+        }
+    ]
+}

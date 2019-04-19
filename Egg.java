@@ -7,6 +7,12 @@ public class Egg {
         int million1 = 1000000;
         int million2 = 1000_000;
         String s = null;
+        String s1 = "1", s2;
+        double amount = 0xE;
+        float value = 102.0f;
+
+
+
         String t = "hello";
         int len = t.length();
         System.out.println(len);
@@ -21,6 +27,7 @@ public class Egg {
         System.out.println(Floats);
         System.out.println(million1);
         System.out.println(million2);
+        System.out.println(amount);
 
     }
 
