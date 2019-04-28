@@ -49,13 +49,31 @@ public class String1 {
         System.out.println(trimmed.length());
         System.out.println("____________");
 
-        //Method chaining
-        String start = "AniMaL";
+       
+        String start = "AniMaL     ";
         String trimmed1 = start.trim();
         String lowercase = trimmed1.toLowerCase();
         String result = lowercase.replace('a', 'A');
         System.out.println(result);
         System.out.println("____________");
+
+         //Method chaining
+         //Above lines 53-58 can be replaced by the following
+
+         String result1 = "AniMal     ".trim().toLowerCase().replace('a', 'A');
+         System.out.println(result1);
+         System.out.println("____________");
+
+         String a = "abc";
+         String b = a.toUpperCase();
+         b = b.replace("B", "2").replace('C', '3');
+         System.out.println("a= " + a);
+         System.out.println("b= " + b);
+
+
+
+
+
         
 
 
