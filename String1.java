@@ -69,6 +69,13 @@ public class String1 {
          b = b.replace("B", "2").replace('C', '3');
          System.out.println("a= " + a);
          System.out.println("b= " + b);
+         System.out.println("____________");
+
+         String alpha = "";
+         for(char current = 'a'; current <= 'z'; current++) {
+             alpha += current;
+             
+         }System.out.print(alpha);
 
 
 
