@@ -71,20 +71,10 @@ public class String1 {
          System.out.println("b= " + b);
          System.out.println("____________");
 
-         int x4 = 4;
-         long y = x4  * 4 - x++;
-         if(y<10) System.out.println("Too Low");
-         else System.out.println("Just Right");
-         else System.out.println("Too High");
-         
-
-
-
-
-
-        
-
-
-
+         String alpha = "";
+         for(char current = 'a'; current <= 'z'; current++) {
+             alpha += current;
+             
+         }System.out.print(alpha);
     }
 }
