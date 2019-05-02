@@ -76,14 +76,5 @@ public class String1 {
              alpha += current;
              
          }System.out.print(alpha);
-
-
-
-
-
-        
-
-
-
     }
 }
