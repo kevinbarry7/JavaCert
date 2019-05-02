@@ -45,7 +45,21 @@ public class Stringbuffer1 {
         int len = sb4.length();
         char ch = sb4.charAt(6);
         System.out.println(sub + " " + len + " " + ch);
+        System.out.println("_________________________");
 
+        //append()
+        StringBuilder sb5 = new StringBuilder().append(1).append('c');
+        sb5.append("-").append(true);
+        System.out.println(sb5);
+        System.out.println("_________________________");
+
+        StringBuilder sb6 = new StringBuilder("animals");
+        sb6.insert(7, "-");
+        sb6.insert(0, "-");
+        sb6.insert(4, "-");
+        System.out.println(sb6);
+        System.out.println("_________________________");
+        
 
 
 
