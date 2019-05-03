@@ -35,9 +35,9 @@ public class Stringbuffer1 {
 
         // 3 ways to construct a StringBuilder
 
-        StringBuilder sb1 = new StringBuilder();
-        StringBuilder sb2 = new StringBuilder("animal");
-        StringBuilder sb3 = new StringBuilder(10);
+        //StringBuilder sb1 = new StringBuilder();
+        //StringBuilder sb2 = new StringBuilder("animal");
+        //StringBuilder sb3 = new StringBuilder(10);
 
         System.out.println("_________________________");
         StringBuilder sb4 = new StringBuilder("animals");
@@ -53,13 +53,58 @@ public class Stringbuffer1 {
         System.out.println(sb5);
         System.out.println("_________________________");
 
+        //insert()
         StringBuilder sb6 = new StringBuilder("animals");
         sb6.insert(7, "-");
         sb6.insert(0, "-");
         sb6.insert(4, "-");
         System.out.println(sb6);
         System.out.println("_________________________");
-        
+
+        //delete and deleteCharAt()
+        StringBuilder sb7 = new StringBuilder("abcdef");
+        sb7.delete(1, 3);
+        sb7.deleteCharAt(2);
+        System.out.println(sb7);
+        System.out.println("_________________________");
+
+        //reverse()
+        StringBuilder sb8 = new StringBuilder("ABC");
+        sb8.reverse();
+        System.out.println(sb8);
+        System.out.println("_________________________");
+
+        //toString()
+
+        String s = sb8.toString();
+        System.out.println(s);
+        System.out.println("_________________________");
+
+        //understanding equality
+
+        StringBuilder one = new StringBuilder();
+        StringBuilder two = new StringBuilder();
+        StringBuilder three = one.append("a");
+        System.out.println(one == two);
+        System.out.println(one == three);
+        System.out.println("_________________________");
+
+        //object equality
+
+        String x = "Hello World";
+        String y = "Hello World";
+        System.out.println(x == y);
+
+        String x1 = new String("Hello World");
+        String y1 = "Hello World";
+        System.out.println(x1 == y1);
+
+        //logical equality
+
+        String x2 = "Hello World";
+        String y2 = " Hello World ".trim();
+        System.out.println(x2.equals(y2));
+
 
 
 

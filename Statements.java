@@ -9,7 +9,7 @@ public class Statements {
         System.out.println("Hey");
 
         int y = 10;
-        int x;
+        //int x;
         if(y > 5){
             x = 2 * y;
         } else {
