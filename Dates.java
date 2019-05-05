@@ -61,6 +61,21 @@ public class Dates {
         System.out.println(shortDateTime.format(dateTime4));
         System.out.println(shortDateTime.format(date4));
         //System.out.println(shortDateTime.format(time4)); 
+        System.out.println("____________");
+
+        LocalDate date5 = LocalDate.of(2020, 8, 06);
+        LocalTime time5 = LocalTime.of(12, 10, 15);
+        LocalDateTime dateTime5 = LocalDateTime.of(date5, time5);
+
+        DateTimeFormatter shortF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.SHORT);
+        DateTimeFormatter mediumF = DateTimeFormatter.ofLocalizedDateTime(FormatStyle.MEDIUM);
+        System.out.println(shortF.format(dateTime5));
+        System.out.println(mediumF.format(dateTime5));
+
+        DateTimeFormatter f = DateTimeFormatter.ofPattern("MMMM dd, yyyy, hh:mm");
+        System.out.println(dateTime5.format(f));
+
+
 
 
 
