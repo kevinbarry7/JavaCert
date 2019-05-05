@@ -133,21 +133,70 @@ public class Arrays1 {
         System.out.println(bird.size()); //size()
         System.out.println(bird.contains("black bird")); //contains()
         System.out.println(bird.contains("robin"));
-        
+
 
         bird.clear();
         System.out.println(bird.isEmpty()); //isEmpty()
         System.out.println(bird.size()); //size()
+        System.out.println("_________________________");
 
+        List<String> one = new ArrayList<>();
+        List<String> two = new ArrayList<>();
+        System.out.println(one.equals(two));
+        one.add("a");
+        System.out.println(one.equals(two));
+        two.add("a");
+        System.out.println(one.equals(two));
+        System.out.println("_________________________");
 
+        //Autoboxing
 
+        List<Double> weights = new ArrayList();
+        weights.add(50.5);
+        weights.add(new Double(60));
+        weights.remove(50.5);
+        double first = weights.get(0);
+        System.out.println(first);
+        System.out.println("_________________________");
 
+        List<Integer> numbers6 = new ArrayList<>();
+        numbers6.add(1);
+        numbers6.add(2);
+        numbers6.remove(1); //remove item at index 1 not the item 1
+        System.out.println(numbers6);
+        System.out.println("_________________________");
+        
+        //converting between array and List
 
+        List<String> list8 = new ArrayList<>();
+        list8.add("hawk");
+        list8.add("robin");
+        Object[] objectArray = list8.toArray();
+        System.out.println(objectArray.length);
+        String[] stringArray = list8.toArray(new String[0]);
+        System.out.println(stringArray.length);
+        System.out.println("_________________________");
 
+        //converting an array to a List
+        String[] array = {"hawk", "robin"};
+        List<String>  list9 = Arrays.asList(array);
+        System.out.println(list9.size());
+        list.set(1, "test");
+        array[0] = "new";
+        for(String b: array) System.out.print(b + " ");
+        System.out.println();
+        //list9.remove(1);
+        System.out.println("_________________________");
 
-
-
-
+        //sorting
+        List<Integer> numbers7 = new ArrayList<>();
+        numbers7.add(99);
+        numbers7.add(5);
+        numbers7.add(81);
+        Collections.sort(numbers7);
+        System.out.println(numbers7);
+        System.out.println("_________________________");
+        
 
 
 
