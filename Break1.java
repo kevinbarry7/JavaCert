@@ -31,8 +31,8 @@ public class Break1 {
         // String message = x>10 ? "Greater than": false;
         // System.out.println(message+","+x);
 
-        long x2 = 10;
-        int y2 = 2 * (int)x2;
+        //long x2 = 10;
+        //int y2 = 2 * (int)x2;
 
         java.util.List<Integer> list1 = new java.util.ArrayList<Integer>();
         list1.add(10);

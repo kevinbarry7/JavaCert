@@ -8,17 +8,17 @@ public class Arrays1 {
         System.out.println(numbers2[1]);
         System.out.println("_________________________");
 
-        int[] numbers3 = {42, 55, 99}; //declarations for numbers2 and numbers3 are identical
+        //int[] numbers3 = {42, 55, 99}; //declarations for numbers2 and numbers3 are identical
 
         // all the following are valid declarations
 
-        int[] numAnimals;
-        int [] numAnimals2;
-        int numAnimals3[];
-        int numAnimals4 [];
+        //int[] numAnimals;
+        //int [] numAnimals2;
+        //int numAnimals3[];
+        //int numAnimals4 [];
 
-        int[] ids, types; // creates two arrays of type int[]
-        int ids1[], types1; //create an int[] called ids1, and an int variable types1
+        //int[] ids, types; // creates two arrays of type int[]
+        //int ids1[], types1; //create an int[] called ids1, and an int variable types1
 
         String [] bugs = {"cricket", "beetle", "ladybug"};
         int[] numbers = {1,2,3,4};
@@ -28,9 +28,9 @@ public class Arrays1 {
         System.out.println(bugs.toString());
         System.out.println("_________________________");
 
-        String[] strings = {"stringValue"}; //ok
-        Object[] objects = strings; //ok, objects is a broader type than String
-        String[] againStrings = (String[]) objects; 
+        //String[] strings = {"stringValue"}; //ok
+        //Object[] objects = strings; //ok, objects is a broader type than String
+        //String[] againStrings = (String[]) objects; 
         //againStrings[0] = new StringBuilder(); //won't compile againString[] on allows strings not StringBuilder
         //objects[0] = new StringBuilder();
         System.out.println("_________________________");
@@ -83,18 +83,18 @@ public class Arrays1 {
         }
         System.out.println("_________________________");
 
-        ArrayList list1 = new ArrayList(); //old declaration but still valid
-        ArrayList list2 = new ArrayList(10); //old declaration but still valid
-        ArrayList list3 = new ArrayList(list2); //old declaration but still valid
+        //ArrayList list1 = new ArrayList(); //old declaration but still valid
+        //ArrayList list2 = new ArrayList(10); //old declaration but still valid
+        //ArrayList list3 = new ArrayList(list2); //old declaration but still valid
 
-        ArrayList<String> list4 = new ArrayList<String>(); //current preferred declaration
-        ArrayList<String> list5 = new ArrayList<>(); //also a version of the current preferred dec
+        //ArrayList<String> list4 = new ArrayList<String>(); //current preferred declaration
+        //ArrayList<String> list5 = new ArrayList<>(); //also a version of the current preferred dec
 
-        ArrayList list = new ArrayList<>();
-        list.add("hawk");
-        list.add(Boolean.TRUE);
-        list.add('1');
-        System.out.println(list);
+        //ArrayList list = new ArrayList<>();
+        //list.add("hawk");
+        //list.add(Boolean.TRUE);
+        //list.add('1');
+        //System.out.println(list);
         System.out.println("_________________________");
 
         ArrayList<String> safer = new ArrayList<>();
@@ -151,12 +151,12 @@ public class Arrays1 {
 
         //Autoboxing
 
-        List<Double> weights = new ArrayList();
-        weights.add(50.5);
-        weights.add(new Double(60));
-        weights.remove(50.5);
-        double first = weights.get(0);
-        System.out.println(first);
+        //List<Double> weights = new ArrayList();
+        //weights.add(50.5);
+        //weights.add(new Double(60));
+        //weights.remove(50.5);
+        //double first = weights.get(0);
+        //System.out.println(first);
         System.out.println("_________________________");
 
         List<Integer> numbers6 = new ArrayList<>();
@@ -181,7 +181,7 @@ public class Arrays1 {
         String[] array = {"hawk", "robin"};
         List<String>  list9 = Arrays.asList(array);
         System.out.println(list9.size());
-        list.set(1, "test");
+        //list.set(1, "test");
         array[0] = "new";
         for(String b: array) System.out.print(b + " ");
         System.out.println();

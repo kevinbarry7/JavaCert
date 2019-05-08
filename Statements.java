@@ -8,13 +8,13 @@ public class Statements {
         System.out.println("Hey");
         System.out.println("Hey");
 
-        int y = 10;
+        //int y = 10;
         //int x;
-        if(y > 5){
-            x = 2 * y;
-        } else {
-            x = 3 * y;
-        }
+        //if(y > 5){
+            //x = 2 * y;
+        //} else {
+           // x = 3 * y;
+        //}
 
         int y1 = 10;
         int x1 = (y1 > 10)? (2 * y1) : (3 * y1);

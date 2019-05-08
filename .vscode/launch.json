@@ -2,6 +2,19 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - Test",
+            "request": "launch",
+            "mainClass": "Test",
+            "projectName": "JavaCert_d814ce02"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - String1",
+            "request": "launch",
+            "mainClass": "String1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Salmon",
             "request": "launch",
             "mainClass": "Salmon"
