@@ -21,8 +21,8 @@ public class TestClass {
         System.out.println(a ^ b);
 
         //boolean c = false;
-        boolean d = (c = true);
-        System.out.println(d);
+        //boolean d = (c = true);
+        //System.out.println(d);
 
         File x1 = new File("myFile.txt");
         File y1 = new File("myFile.txt");
