@@ -3,7 +3,7 @@ public class Objects {
         String one = new String("a");
         String two = new String("b");
         one = two;
-        String three = one;
+        //String three = one;
         one = null;
         
     }
